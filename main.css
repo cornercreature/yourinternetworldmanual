@@ -1,0 +1,55 @@
+body {
+ margin: 0;
+ background-image: url('/Other\ web\ assets/computer background.png');
+ background-size: 100vw 100vh;
+}
+.header {
+    margin-top: 20px;
+}
+.logotop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+.substance {
+    display: block;
+    width:100vw;
+    height:60vh;
+    margin-top: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.substance::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 100px;
+    padding-left: 70px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+
+.slide {
+    flex-shrink: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.page {
+    max-height: 95%;
+    width: auto;
+    object-fit: contain;
+    margin-left:50px;
+    margin-right:50px;
+}
