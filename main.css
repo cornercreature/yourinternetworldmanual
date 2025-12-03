@@ -133,3 +133,14 @@ body {
     top: 64%;
     right: 43.5%;
 }
+
+#slide22 {
+    position: relative;
+}
+
+#spinsign-video {
+    top: 49%;
+    left: 69%;
+    transform: translateX(-50%);
+    width: 102px;
+}
